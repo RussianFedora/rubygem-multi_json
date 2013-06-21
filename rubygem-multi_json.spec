@@ -5,8 +5,8 @@
 
 Name:		rubygem-%{gemname}
 Summary: 	multi_json
-Version: 	1.7.5
-Release: 	2%{?dist}
+Version: 	1.7.7
+Release: 	3%{?dist}
 Group: 		Development/Languages
 License: 	GPLv2+ or Ruby
 URL:        http://%{gemname}.rubyforge.org/
@@ -48,5 +48,5 @@ rm -rf %{buildroot}
 %{gemdir}/specifications/%{gemname}-%{version}.gemspec
 
 %changelog
-* Tue Jun 4 2013 Sergey Mihailov <sergey.mihailov@gpm.int> - 3.2.2-1
+* Tue Jun 4 2013 Sergey Mihailov <sergey.mihailov@gmail.com> - 1.7.7-3
 - Initial package
